@@ -11974,9 +11974,17 @@ body {
 }
 
 #navbarNav {
-  font-size: x-large;
+  font-size: large;
 }
 
 .nav-item {
   padding-right: 50px;
+}
+
+.nav-item:hover {
+  cursor: auto;
+  text-shadow: 8px 8px 8px lightblue;
+  border-bottom: 1px solid white;
+  font-size: x-large;
+  font-weight: bolder;
 }/*# sourceMappingURL=custome.css.map */
