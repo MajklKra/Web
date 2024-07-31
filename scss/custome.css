@@ -11967,4 +11967,12 @@ textarea.form-control-lg {
 }
 body {
   background-color: rgb(15, 23, 42);
+  Color: #E2E8F0;
+  /*  font-family: var(--font-inter),ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";  */
+  font-family: "Inter", sans-serif;
+  /* font-weight: 900;  */
+}
+
+.navbar-nav {
+  right: 10px;
 }/*# sourceMappingURL=custome.css.map */
