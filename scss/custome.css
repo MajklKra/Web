@@ -20262,4 +20262,25 @@ body {
 
 #s1 > div {
   padding: 100px 100px;
+}
+
+#s1 > div > div > h2, #s1 > div > div > .h2 {
+  margin-bottom: 50px;
+}
+
+#s1 > div > div > p {
+  /* background-color: red; */
+  Color: #94A3B8;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-size: 16px;
+}
+
+.subheading {
+  margin-bottom: 100px;
+  font-size: 20px;
 }/*# sourceMappingURL=custome.css.map */
