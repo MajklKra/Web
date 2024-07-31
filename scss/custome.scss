@@ -56,3 +56,40 @@ body{
   font-weight: bolder;
 }
 
+/* #intro {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center center;
+    line-height: 1.7;
+} */
+
+/* .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border: 1px solid #63a7a8;
+    padding: 0;
+} */
+
+#s1{
+    margin:100px 200px;
+}
+
+#s1>div{
+   
+    padding: 100px 100px;
+}
