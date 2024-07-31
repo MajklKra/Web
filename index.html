@@ -11,7 +11,7 @@
       <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#" style="font-size: xx-large;"><b>! ! !</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -37,5 +37,23 @@
       </nav>
     </header>
     <h1><b>Fuck you mother fucker !!!</b></h1>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navbarMenu = document.querySelector('#navbarNav');
+            const bsCollapse = new bootstrap.Collapse(navbarMenu, { toggle: false });
+
+            const collapseNavbar = () => {
+                if (window.innerWidth < 992) {
+                    bsCollapse.hide();
+                }
+            };
+
+            navLinks.forEach(link => link.addEventListener('click', collapseNavbar));
+        });
+
+    </script>
 </body>
 </html>
