@@ -11973,6 +11973,10 @@ body {
   /* font-weight: 900;  */
 }
 
-.navbar-nav {
-  right: 10px;
+#navbarNav {
+  font-size: x-large;
+}
+
+.nav-item {
+  padding-right: 50px;
 }/*# sourceMappingURL=custome.css.map */
