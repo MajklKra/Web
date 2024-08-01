@@ -20328,6 +20328,15 @@ body {
   height: 600px;
 }
 
+.card-body > h5, .card-body > .h5 {
+  color: #94A3B8;
+}
+
 .card-body {
-  background-color: white;
+  background-color: #E2E8F0;
+  color: #94A3B8;
+}
+
+.card:hover {
+  transform: scaleY(1.05);
 }/*# sourceMappingURL=custome.css.map */

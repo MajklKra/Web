@@ -181,18 +181,29 @@ padding: 10px;
 
 .card{
     height: 600px;
+   
+}
+
+
+.card-body>h5{
+    color:#94A3B8;
 }
 
 .card-img-top{
-    
+  
 }
 
 .card-body
 {
-   background-color:white;
+   background-color:#E2E8F0;
+   color: #94A3B8;
 }
 
 .btn
 {
     
+}
+
+.card:hover{
+   transform: scaleY(1.05);
 }
