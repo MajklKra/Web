@@ -20322,4 +20322,12 @@ body {
 
 #projects > .p3 {
   margin: 100px 200px;
+}
+
+.card {
+  height: 600px;
+}
+
+.card-body {
+  background-color: white;
 }/*# sourceMappingURL=custome.css.map */
