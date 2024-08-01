@@ -20338,5 +20338,19 @@ body {
 }
 
 .card:hover {
-  transform: scaleY(1.05);
+  transform: scaleY(1.02);
+}
+
+#hobbies {
+  margin: 100px 200px;
+}
+
+#hobbies > div > div > h3, #hobbies > div > div > .h3 {
+  padding: 20px 0px;
+}
+
+#hobbies > div > div > p {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  Color: #94A3B8;
 }/*# sourceMappingURL=custome.css.map */
